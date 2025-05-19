@@ -1,0 +1,37 @@
+# Create a simple mobile app using Unity (C#) or Flutter (Dart) that helps users quit smoking
+# by cloning the core mechanics of Flappy Bird. The game should be engaging, simple to play,
+# and integrate motivational quit-smoking features.
+
+# Functional requirements:
+# 1. Game screen where the player taps to keep an avatar (e.g., lungs, bird, or healthy symbol) in the air.
+#    - Avoid obstacles themed around smoking (e.g., cigarettes, smoke clouds).
+#    - When the avatar crashes, restart the game.
+#
+# 2. Home screen:
+#    - Show the number of "Days Smoke-Free".
+#    - Include a "Play" button to start the game.
+#
+# 3. Stats screen:
+#    - Show "Days Smoke-Free".
+#    - Show "Cravings Avoided" count.
+#    - Button to "View Motivational Messages".
+#
+# 4. Messages screen:
+#    - Display one motivational message at a time.
+#    - Messages should rotate or be randomly selected from a predefined list.
+#
+# 5. Navigation:
+#    - Use bottom tab navigation with "Home" and "Stats" as the main sections.
+#
+# 6. Persistent storage:
+#    - Track streak (days smoke-free).
+#    - Track cravings avoided (increase count every time user chooses to play during a craving).
+#
+# Optional:
+# - Push notifications (e.g., "Play now instead of smoking!")
+# - Sound effects and rewards for gameplay progress.
+
+# Preferred framework: Unity (C#) or Flutter (Dart) with Flame engine
+# Prioritize clean code, modular structure, and in-line comments explaining each function.
+
+# Start by creating the base game screen and character controller logic.
